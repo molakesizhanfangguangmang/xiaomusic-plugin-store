@@ -16,11 +16,12 @@
 | 链接下载音频 | 1.0.0 | [bili-url-download-1.0.0.zip](plugins/bili-url-download-1.0.0.zip) | 粘贴 B 站视频/分享链接（或其它 yt-dlp 能解析的 URL），抽音轨转 mp3 落到 `download/` |
 | 工具区安装包 | 1.0.0 | [xiaomusic-tools-installer-1.0.0.zip](plugins/xiaomusic-tools-installer-1.0.0.zip) | 上面两个插件依赖的工具区本体 + 上传接口，整包，含一键安装/卸载脚本 |
 | 刷新歌曲时长 | 1.0.0 | [另见独立仓库](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh) | 勾选本地歌曲重算时长并覆盖缓存；**需另打后端补丁**，装法见其仓库 |
+| 清理孤儿条目 | 1.0.0 | [另见独立仓库](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner) | 扫描时长缓存里「有条目、磁盘无此曲」的死条目并删除；**需另打后端补丁**，装法见其仓库 |
 
 前两个是单插件包；第三个是工具区本体，装插件之前得先有它。
 
-最后一个**与前三个性质不同**：它除了插件页，还需要一份后端补丁（要覆盖容器里的 `.py`），
-所以插件 zip 与补丁都放在它自己的仓库里，本页不放。装之前先读那个仓库的 README。
+最后两个**与前三个性质不同**：它们除了插件页，还需要一份后端补丁（要覆盖容器里的 `.py`），
+所以插件 zip 与补丁都放在各自的仓库里，本页不放。装之前先读对应仓库的 README。
 
 ---
 
@@ -58,6 +59,7 @@ README.md         本页
 - [`xiaomusic-tools`](https://github.com/molakesizhanfangguangmang/xiaomusic-tools)：工具区本体、上传接口、一键安装/卸载包。
 - [`xiaomusic-web-delete-tool`](https://github.com/molakesizhanfangguangmang/xiaomusic-web-delete-tool)：删除歌曲 + 链接下载音频这两个工具的开发仓库。
 - [`xiaomusic-plugin-duration-refresh`](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh)：刷新歌曲时长（插件页 + 后端补丁）。
+- [`xiaomusic-plugin-orphan-cleaner`](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner)：清理孤儿条目（插件页 + 后端补丁）。
 
 ---
 

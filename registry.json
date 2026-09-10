@@ -1,6 +1,6 @@
 {
   "_comment": "插件商城清单。字段沿用 xiaomusic-tools 的 tools.json 结构（id/title/icon/desc/version）+ 分发用 url/sha256。本文件当前仅作索引，未接入 tools.json 的远程源。url 为相对本仓的路径；external 为 true 表示插件不放在本仓，需到 repo 指向的仓库获取。",
-  "version": 2,
+  "version": 3,
   "items": [
     {
       "id": "delete-song",
@@ -35,6 +35,16 @@
       "external": true,
       "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh",
       "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh/blob/main/plugin/duration-refresh-1.0.0.zip"
+    },
+    {
+      "id": "orphan-cleaner",
+      "title": "清理孤儿条目",
+      "icon": "🧹",
+      "desc": "扫描时长缓存里「有条目、磁盘无此曲」的残留并删除，另含「重建」按钮让内存列表跟上磁盘；只动缓存不碰文件，需另打后端补丁，装法见其仓库",
+      "version": "1.0.0",
+      "external": true,
+      "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner",
+      "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner/blob/main/plugin/orphan-cleaner-1.0.0.zip"
     }
   ]
 }
