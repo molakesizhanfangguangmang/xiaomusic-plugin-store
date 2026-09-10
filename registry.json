@@ -1,6 +1,6 @@
 {
   "_comment": "插件商城清单。字段沿用 xiaomusic-tools 的 tools.json 结构（id/title/icon/desc/version）+ 分发用 url/sha256。本文件当前仅作索引，未接入 tools.json 的远程源。url 为相对本仓的路径；external 为 true 表示插件不放在本仓，需到 repo 指向的仓库获取。",
-  "version": 3,
+  "version": 4,
   "items": [
     {
       "id": "delete-song",
@@ -45,6 +45,16 @@
       "external": true,
       "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner",
       "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner/blob/main/plugin/orphan-cleaner-1.0.0.zip"
+    },
+    {
+      "id": "music-manager",
+      "title": "歌曲管理",
+      "icon": "🎵",
+      "desc": "重命名歌曲、管理专辑、按歌手自动分类；另修「播放歌单X」误下载与删歌后记忆残留，需另打后端补丁，装法见其仓库",
+      "version": "1.0.0",
+      "external": true,
+      "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager",
+      "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager/blob/main/plugin/music-manager-1.0.0.zip"
     }
   ]
 }
