@@ -1,0 +1,30 @@
+{
+  "_comment": "插件商城清单。字段沿用 xiaomusic-tools 的 tools.json 结构（id/title/icon/desc/version）+ 分发用 url/sha256。本文件当前仅作索引，未接入 tools.json 的远程源。",
+  "version": 1,
+  "items": [
+    {
+      "id": "delete-song",
+      "title": "删除歌曲",
+      "icon": "♻",
+      "desc": "从已下载(download/)歌曲中单选一首，二级确认后永久删除",
+      "version": "1.0.0",
+      "url": "plugins/delete-song-1.0.0.zip"
+    },
+    {
+      "id": "bili-url-download",
+      "title": "链接下载音频",
+      "icon": "⬇",
+      "desc": "粘贴 B 站等可解析链接，调后端 yt-dlp 抽音轨转 mp3 落 download/",
+      "version": "1.0.0",
+      "url": "plugins/bili-url-download-1.0.0.zip"
+    },
+    {
+      "id": "xiaomusic-tools",
+      "title": "工具区安装包",
+      "icon": "⬆",
+      "desc": "工具区本体 + 上传接口 + 一键安装/卸载脚本（整包，非单插件）",
+      "version": "1.0.0",
+      "url": "plugins/xiaomusic-tools-installer-1.0.0.zip"
+    }
+  ]
+}
