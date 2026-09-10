@@ -17,7 +17,7 @@
 | 工具区安装包 | 1.0.0 | [xiaomusic-tools-installer-1.0.0.zip](plugins/xiaomusic-tools-installer-1.0.0.zip) | 上面两个插件依赖的工具区本体 + 上传接口，整包，含一键安装/卸载脚本 |
 | 刷新歌曲时长 | 1.0.1 | [另见独立仓库](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh) | 勾选本地歌曲重算时长并覆盖缓存；**需另打后端补丁**，装法见其仓库 |
 | 清理孤儿条目 | 1.0.1 | [另见独立仓库](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-orphan-cleaner) | 扫描时长缓存里「有条目、磁盘无此曲」的死条目并删除；**需另打后端补丁**，装法见其仓库 |
-| 歌曲管理 | 1.0.0 | [另见独立仓库](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager) | 重命名歌曲、管理专辑、按歌手自动分类；另修「播放歌单X」误下载与删歌后记忆残留；**需另打后端补丁**，装法见其仓库 |
+| 歌曲管理 | 1.0.1 | [另见独立仓库](https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager) | 重命名歌曲、管理专辑、按歌手自动分类，并在主控制面板加入「高级播放设置」（播歌单/播单曲自动切播放模式）；另修「播放歌单X」误下载与删歌后记忆残留；**需另打后端补丁**，装法见其仓库 |
 
 前两个是单插件包；第三个是工具区本体，装插件之前得先有它。
 

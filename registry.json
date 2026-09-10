@@ -50,11 +50,11 @@
       "id": "music-manager",
       "title": "歌曲管理",
       "icon": "🎵",
-      "desc": "重命名歌曲、管理专辑、按歌手自动分类；另修「播放歌单X」误下载与删歌后记忆残留，需另打后端补丁，装法见其仓库",
-      "version": "1.0.0",
+      "desc": "重命名歌曲、管理专辑、按歌手自动分类，并在主控制面板加入「高级播放设置」（播歌单/播单曲自动切播放模式）；另修「播放歌单X」误下载与删歌后记忆残留，需另打后端补丁，装法见其仓库",
+      "version": "1.0.1",
       "external": true,
       "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager",
-      "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager/blob/main/plugin/music-manager-1.0.0.zip"
+      "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager/blob/main/plugin/music-manager-1.0.1.zip"
     }
   ]
 }
