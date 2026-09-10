@@ -1,6 +1,6 @@
 {
-  "_comment": "插件商城清单。字段沿用 xiaomusic-tools 的 tools.json 结构（id/title/icon/desc/version）+ 分发用 url/sha256。本文件当前仅作索引，未接入 tools.json 的远程源。",
-  "version": 1,
+  "_comment": "插件商城清单。字段沿用 xiaomusic-tools 的 tools.json 结构（id/title/icon/desc/version）+ 分发用 url/sha256。本文件当前仅作索引，未接入 tools.json 的远程源。url 为相对本仓的路径；external 为 true 表示插件不放在本仓，需到 repo 指向的仓库获取。",
+  "version": 2,
   "items": [
     {
       "id": "delete-song",
@@ -25,6 +25,16 @@
       "desc": "工具区本体 + 上传接口 + 一键安装/卸载脚本（整包，非单插件）",
       "version": "1.0.0",
       "url": "plugins/xiaomusic-tools-installer-1.0.0.zip"
+    },
+    {
+      "id": "duration-refresh",
+      "title": "刷新歌曲时长",
+      "icon": "⏱",
+      "desc": "勾选本地歌曲(全选/部分选/单选)按名单强制重算时长并覆盖缓存；需另打后端补丁，装法见其仓库",
+      "version": "1.0.0",
+      "external": true,
+      "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh",
+      "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-duration-refresh/blob/main/plugin/duration-refresh-1.0.0.zip"
     }
   ]
 }
