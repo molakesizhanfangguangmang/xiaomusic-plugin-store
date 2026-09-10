@@ -9,3 +9,4 @@ credentials/
 *.tmp
 __pycache__/
 *.pyc
+*.pre_unpatch_*

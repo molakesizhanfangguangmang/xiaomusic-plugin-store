@@ -1,6 +1,6 @@
 {
   "_comment": "插件商城清单。字段沿用 xiaomusic-tools 的 tools.json 结构（id/title/icon/desc/version）+ 分发用 url/sha256。本文件当前仅作索引，未接入 tools.json 的远程源。url 为相对本仓的路径；external 为 true 表示插件不放在本仓，需到 repo 指向的仓库获取。",
-  "version": 4,
+  "version": 5,
   "items": [
     {
       "id": "delete-song",
@@ -55,6 +55,16 @@
       "external": true,
       "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager",
       "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-music-manager/blob/main/plugin/music-manager-1.0.1.zip"
+    },
+    {
+      "id": "alarm",
+      "title": "闹钟",
+      "icon": "⏰",
+      "desc": "多组闹钟的增删查改：到点播放指定单曲，或播报一句话。每条都带「放完之后」——放完就停（按曲长自动下发停止）或单曲循环（一直放这一首，直到你说停）；重复按星期几算（每天 / 工作日 / 自定义勾选，不查节假日表），可勾「只响一次，用完销毁」。只写 xiaomusic 的 crontab_json，需另打后端补丁，装法见其仓库",
+      "version": "1.0.1",
+      "external": true,
+      "repo": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-alarm",
+      "url": "https://github.com/molakesizhanfangguangmang/xiaomusic-plugin-alarm/blob/main/plugin/alarm-1.0.1.zip"
     }
   ]
 }
